@@ -1,1 +1,1 @@
-# BIMCap
+# BIMCaP
