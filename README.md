@@ -1,4 +1,6 @@
 # BIMCaP
+This repository will contain the implementation of BIM-based AI-supported LiDAR-Camera Pose Refinement paper.
+
 
 ## Acknowledgements
 This project incorporates code from [FACaP](https://github.com/SamsungLabs/FACaP) by Sokolova, Anna and Nikitin, Filipp and Vorontsova, Anna and Konushin, Anton, which is licensed under the MIT License.
