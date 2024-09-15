@@ -1,5 +1,5 @@
 # BIMCaP
-This repository will contain the implementation of BIM-based AI-supported LiDAR-Camera Pose Refinement paper.
+This repository will contain the implementation of BIM-based AI-supported LiDAR-Camera Pose Refinement [paper](https://mediatum.ub.tum.de/node?id=1748534).
 
 
 ## Acknowledgements
