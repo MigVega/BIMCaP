@@ -1,0 +1,29 @@
+paths:
+  scan_path: "./data/htkr"
+  save_path: "./data/htkr/results_2d"
+
+data:
+  wall_sparsity: 150
+  floor_sparsity: 30
+  #Minimum distance between frames that are used for optimization
+  min_frame_difference: 3
+  #Filter out matched keypoints with too much initial distance 
+  max_initial_distance: 0.4
+  #Filter out floor points in lower and upper percentiles regarding Z axis
+  floor_percentiles: [ 0.5, 95 ]
+  #The scale at which the depth images are provided
+  depths_scale: 1000
+
+optimization:
+  num_epoches: 25000
+  lr: 0.1
+  momentum: 0.9
+  fixed_cameras_idx: [ ]
+
+error:
+  error_type: point_error
+  floor_term: True
+  floor_weight: 0.02
+  wall_term: True
+  wall_term_type: "segment"
+  wall_weight: 0.0007

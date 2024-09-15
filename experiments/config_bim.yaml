@@ -1,0 +1,29 @@
+paths:
+  scan_path: "../camera_refinement_BIM/scan_lowres_002_250/"
+  save_path: "../camera_refinement_BIM/scan_lowres_002_250/results_bim_noceil_nocol_gfw/"
+
+data:
+  use_bim : True
+  wall_sparsity: 150
+  floor_sparsity: 30
+  min_frame_difference: 1
+  max_initial_distance: 0.4
+  floor_percentiles: [ 0.5, 95 ]
+  depths_scale: 1
+
+optimization:
+  num_epoches: 20000
+  lr: 0.1
+  momentum: 0.9
+  fixed_cameras_idx: [ ]
+
+error:
+  error_type: point_error
+  floor_term: True
+  floor_weight: 0.02
+  ceil_term: False
+  ceil_weight: 0.02
+  wall_term: True
+  wall_term_type: "point"
+  wall_weight: 0.0007
+  include_columns: False
