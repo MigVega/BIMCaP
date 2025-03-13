@@ -92,7 +92,7 @@ The example of the config can be found in the path `experiments/config.yaml`.
 
 ## Citation
 
-```bibtext
+```BibTeX
 
 @inproceedings{Vega:2024:BIMCaP,
 	author = {Vega-Torres, Miguel A. and Ribic, Anna and García de Soto, Borja and Borrmann, André},
@@ -100,8 +100,7 @@ The example of the config can be found in the path `experiments/config.yaml`.
 	booktitle = { Proc. of the 31th Int. Conference on Intelligent Computing in Engineering (EG-ICE)},
 	year = {2024},
 	month = {Jul},
-	isbn = {},
-	doi = {},
+	doi = {https://doi.org/10.48550/arXiv.2412.03434},
 	keywords = {Construction Robotics; SLAM; BIM; Bundle Adjustment; Long-term Mapping},
 	url = {https://github.com/MigVega/BIMCaP}
 }
