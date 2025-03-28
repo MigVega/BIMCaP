@@ -1,6 +1,6 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        BIMCaP <br>
+        BIMCaP 
     </b>	
  </h1>
 <p align="center">
@@ -14,6 +14,7 @@
     <a href="https://mediatum.ub.tum.de/1743877"><b>BIM model Data</b></a>  •  
     <a href="https://huggingface.co/erwinqi"><b>Semantic Segmentation Data</b></a>
 </p>
+
 This repository will contain the implementation of BIM-based AI-supported LiDAR-Camera Pose Refinement [paper](https://mediatum.ub.tum.de/node?id=1748534).
 This project is an extension of the [FACaP](https://github.com/SamsungLabs/FACaP) project.
 
